@@ -1,0 +1,65 @@
+body{
+    background-color: bisque;
+}
+
+#container{
+    margin: -22px;
+    padding: 0;
+}
+
+
+#first_div{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#Second_div{
+    align-items: center;
+    text-align: center;
+    padding:30px;
+    margin:30px;
+    
+
+}
+
+#name_input{
+    margin: 5px;
+}
+
+.card{
+    height: 181px;
+    width: 225px; 
+    /* margin: auto; */
+    padding: 40px 100px;
+    border-radius: 30px
+       }
+
+      .card h1{
+    text-align: center;
+    color: red;
+       }
+       .card h2{
+           color: white;
+       }
+
+       .card-content{
+        text-align: center;
+       }
+       .card-content #delete_bttn{
+        width: 70px;
+        height: 30px;
+       } 
+
+       p {
+     padding: 5px;
+     color:white;
+}
+#output_area{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
